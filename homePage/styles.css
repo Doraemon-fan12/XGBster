@@ -5,8 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('image.png') no-repeat center center/cover;
-    backdrop-filter: blur(5px);
+    background: url('desktop.png') no-repeat center center/cover;
+    backdrop-filter: blur(3px);
 }
 
 .container {
@@ -44,10 +44,15 @@ input {
 }
 
 @media (max-width: 600px) {
+    body {
+        background: url('mobile.gif') no-repeat center center/cover;
+        backdrop-filter: blur(2px);
+    }
+
     .container {
         width: 90%;
     }
-    
+
     button {
         width: 100%;
     }
